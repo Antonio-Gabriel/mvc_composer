@@ -1,0 +1,11 @@
+{
+    "name": "mvc/composer",
+    "description": "Criando um MVC php com composer",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "MyApp\\": "app/"
+        }
+    }
+}
